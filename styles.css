@@ -235,6 +235,50 @@ li {
 }
 
 
+.service {
+    background-color: var(--extra-light);
+}
+
+
+.service__container.section__header {
+    max-width: 750px;
+    margin-inline: auto;
+}
+
+.service__grid {
+    margin-block: 4rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.service__card {
+    padding: 1rem;
+    border-radius: .75rem;
+    background-color: var(--white);
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.service__card:hover {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service__card:nth(1):hover {
+    border-color: #00d5be;
+}
+
+.service__card:nth(2):hover {
+    border-color: #ff637e;
+}
+
+.service__card:nth(3):hover {
+    border-color: #c27aff;
+}
+
+.service__card:nth(4):hover {
+    border-color: #00bcff;
+}
+
 /* end of  */
 
 
