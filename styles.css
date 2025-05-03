@@ -224,6 +224,16 @@ li {
 }
 
 
+.header__content :is(h1, .section__description) {
+    text-align: left;
+
+}
+
+
+.header__btns {
+    justify-content: flex-start;
+}
+
 
 /* end of  */
 
