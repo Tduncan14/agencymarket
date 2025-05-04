@@ -48,3 +48,10 @@ ScrollReveal().reveal(".header__btns", {
 
 
 
+
+ScrollReveal().reveal(".service__card", {
+    ...scrollRevealOption,
+    delay: 500
+})
+
+
